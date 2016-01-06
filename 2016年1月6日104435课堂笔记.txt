@@ -1,0 +1,59 @@
+team4
+三哥
+张万强
+王浩宇(leader
+王喜玉
+韩广鹏
+区中原
+
+svn / git
+作用：在多人协作开发过程中，我们使用git负责项目源代码的版本管理，所有的开发人员操作的是同一个仓库中的源码
+
+git
+
+1.编写代码
+
+2.找到文件夹
+
+3.git init----git add -A ---- git commit -m  完成三区同步
+
+4.git remote add 变量名 远程仓库地址 
+  git remote -v 查看
+  git remote -rm 变量名 删除链接
+  git remote update 变量名 把名字对应的远程仓库和本地仓库的链接通道进行更新？以便我们可以获取随时获取最新的项目源码
+
+
+
+	如果已经创建了远程仓库，我们直接的通过git clone 远程地址，这样的话我们的remote -a pull push 就全部完成了
+
+
+
+5.git pull 变量名（一般为origin） master   从仓库拉取
+
+6.git push 变量名（一般为origin） master 推送
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
